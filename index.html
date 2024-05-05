@@ -1,18 +1,81 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>For you</title>
+    <style>
+        .uno{
+            position: relative;
+            top: 600px;
+        }
+
+        .dos{
+            width: 800px;
+            height: 500px;
+            position: absolute;
+            top: 2000px;
+            left: 400px;
+            background-color: greenyellow;
+        }
+
+        .dos-uno{
+            width: 600px;
+            height: 400px;
+            position: relative;
+            top: 100px;
+            left: 180px;
+        }
+
+        .uno p{
+            font-size: 20px;
+        }
+
+        #Picture1{
+            width: 410px;
+            height: 300px;
+            border: 10px solid black;
+        }
+
+        .dos-uno > #text1{
+            margin: 0%;
+            font-size: 20px;
+            font-family: "Roboto Mono", monospace;
+            position: absolute;
+            left: -12px;
+            top: 350px;
+        }
+
+        footer{
+            position: relative;
+            top: 3000px;
+        }
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
+
+
+
+
 <body>
     <h1>te amo...</h1>
-    <p>Esto va a ser mucho más dificíl de lo que pensé<p/>
-    <hr/>
-    <p>Si vez esto: luv u, come y duerme bien<p/>
+    <div class="uno">
+        <p>Esto va a ser mucho más dificíl de lo que pensé<p>
+        <hr/>
+        <p>Si vez esto: <br> luv u, come y duerme bien<p>
+    </div>
+    <div class="dos">
+        <div class="dos-uno">
+            <img src="./Sources/Picture1.jpg" id="Picture1"/>
+            <p id="text1">Es verde del Cali sólo si gana el KPOP</p>
+        </div>
+    </div>
+    <footer>
+        <p>Cuando sean vacaciones prometo actualizaciones más bonitas ;-;</p>
+    </footer>
+
 </body>
 </html>
-
-
-
