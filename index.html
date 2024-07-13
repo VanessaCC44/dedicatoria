@@ -5,25 +5,192 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Para Pablo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    .container-fluid{
+        background-color: #FFF5E1;
+    }
+
+    .mb-41{
+        font-weight: bold;
+    }
+
+    .mb-42{
+            font-style: italic;
+    }
+
+    .text-body-emphasis{
+        font-style: italic;
+    }
+
+    .lead{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .my-2{
+        background-color: #cae6b28f;
+    }
+
+    .rounded-lg-3{
+        height: 400px;
+        width: 310px;
+    }
+
+    .my-4{
+        background-color: #cdb0f177;
+    }
+
+    .rounded-lg-4{
+        height: 490px;
+        width: 280px;
+    }
+
+    .display-4{
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+
+
+
+    .my-0 ul{
+        padding: 15px;
+    }
+
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
 
+  <!-- HEADER -->
   <nav class="navbar bg-body-tertiary">
        <div class="container-fluid">
          <a class="navbar-brand" href="#">
+           <img src="Sources/balloon-heart.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
             Te amo...
          </a>
        </div>
-  </nav>   
+    </nav>   
+
+    
+    <!-- TEXTO INICIAL -->
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-41">~Holap, welcome~</p>
+          <p class="lead mb-4">Aún no he decidido bien qué dinámica quiero para esta página. Sólo quería dedicarte algo que 
+            significara esfuerzo de mi parte y qué mejor que esto que es algo sobre lo que no tenía ni las más remota idea y 
+            me entusiasmaba aprender.</p>
+          <p class="lead mb-4">Por ahora creo que voy a contar nuestra pequeña historia por aquí, pero antes de eso nos dedico 
+            una frase que me gustó del último libro que me leí:</p>
+          <p class="lead mb-42">"Estar con él no era fácil, pero habíamos salido adelante con mucho esfuerzo y ninguno de los 
+            dos estaba dispuesto a rendirse por el simple hecho de que las cosas no fueran sencillas"        </p>
+        </div>
+        <div class="overflow-hidden" >
+          <div class="container px-5">
+            <img src="Sources/FotoCasaRemy.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="cute couple" width="700" height="1500" loading="lazy">
+          </div>
+        </div>
+    </div>
+
+    
+    <!-- PABLO -->
+    <div class="container my-2">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-2 fw-bold lh-1 text-body-emphasis">Pablo</h1>
+            <p class="lead">El primer personaje de esta historia, definitivamente parece el protagonista de una serie. Tiene todo para serlo: Es lindo, carismático, 
+                inteligente, es influyente entre las personas, divertido, bondadoso, amable, valiente, objetivo, etc. <br>Además, has tenido un desarrollo de personaje digno de un prota, 
+                aunque aún sigue en el proceso. Le han pasado cositas, desde siempre ha tenido una chispa que le hace resaltar entre los demás, desde chiquito, entre los adultos, en el colegio, 
+                jugando Fn, y hasta recién llegado a la U resaltaba a más no poder. No era que todo el mundo lo conociera, aunque si lo conocían/conocen muchas personas, sino que el impacto 
+                que generaba/genera es tal que por donde pasa deja su huella ya no es cualquier persona, es "Pablo" o "Pablito", últimamente.<br> No creo que lo logre expresar bien aquí pero enserio 
+                que tu nombre queda resonando a donde fuese que vayas.<br> (Fotito de Pablo ver. pandemia.)</p>
+                
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+              <img class="rounded-lg-3" src="Sources/PabloA.jpg" alt="" width="720">
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- CAROUSEL PABLO -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
 
-      <p><br><br><br>Trabajando... Disculpe las molestias, see viene una actualización grande dentro de poco. Gracias<br><br><br></p>
+      
+      <!-- VANESSA -->
+      <div class="container my-4">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                <img class="rounded-lg-4" src="Sources/LVanessa.jpg" alt="" width="720">
+          </div>
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Vanessa</h1>
+            <p class="lead">Yio, la siguiente personaje de esta historia. <br>Me consideraba la protagonista de mi propia vida, lo sentía, era muy consciente de todo a mi alrededor, cuando llegué a 
+                la U y antecito me creía capaz de cualquier cosa. Después de unos cuantos mesecitos las cosas cambiaron y empezó la montaña rusa de mi desarrollo de personaje, que aún sigue en proceso, 
+                y ahora me cuestan algo más las cosas pero ahí vamos. Quisiera describirme como la yo de mi peak: simpática, alegre pero también seria, inteligente, sutil, delicada pero fuerte, 
+                empática, creativa, recursiva, bondadosa, etc. <br>Sonaba mucho mejor, y lo era, pero ey, esa yo no había conocido al caballero al cual le vengo a dedicar esto y por el cual estamos aquí, 
+                así que continuemos. <br> (Fotito de Vanessa ver. pandemia.)</p> 
+          </div>
+        </div>
+      </div>
+
+
+      <!-- CAROUSEL VANESSA -->
+
+
+      <p><br><br><br>Trabajando...<br><br><br></p>
 
 
 
-
+      <!-- FOOTER -->
       <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-0 border-top">
           <div class="col-md-4 d-flex align-items-center">
@@ -34,7 +201,7 @@
           </div>
       
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            
+            <li class="ms-0"><img class="rounded-lg-0" src="Sources/arrow-through-heart.svg" alt="Corazón"></li>
           </ul>
         </footer>
       </div>
